@@ -1,0 +1,67 @@
+html, body{
+  height:100%;
+}
+
+body{
+  background-image: url(../images/wallpaper.jpg);
+  text-align: center;
+
+}
+
+#wrapper{
+  margin:2.5% auto;
+  background-color: #8779ff;
+  width:960px;
+  height: 95%;
+  box-sizing: border-box;
+}
+
+#subwrapper{
+  position: relative;
+  top:15%;
+}
+button{
+  display:block;
+  width:25%;
+  height:10%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 21px;
+}
+
+img{
+  height:200px;
+}
+
+h1{
+  font-family: 'Geo', sans-serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  color:pink;
+  padding-top: 2.5%;
+}
+
+h2{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#start{
+  margin-top: 10%;
+  border:2px solid blue;
+  background: pink;
+}
+
+
+
+button:hover {
+  border:2px solid blue;
+  background: pink;
+}
